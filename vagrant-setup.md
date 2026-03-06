@@ -20,7 +20,7 @@ To use this lab, you need to have the following programs installed on your machi
 
 ```bash
 # Clone the repository 
-git clone repo-link
+git clone https://github.com/onakorame-dimon/ansible-labs.git
 
 #Ensure you are in the repository directory
 cd ansible-labs
@@ -43,6 +43,10 @@ Bringing machine 'controller' up with 'virtualbox' provider...
 ==> controller: Matching MAC address for NAT networking...
 
 --SNIP--
+
+#When you finish with the labs, you can clean the resources by using the below command
+
+vagrant destroy
 ```
 
 # Happy Labbing
