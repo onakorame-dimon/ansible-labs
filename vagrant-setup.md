@@ -44,6 +44,17 @@ Bringing machine 'controller' up with 'virtualbox' provider...
 
 --SNIP--
 
+#Verify if the machines are running
+vagrant status 
+
+#To Access machines 
+
+#Login to the controller machine
+vagrant ssh controller
+
+#Login to the managed node machine
+vagrant ssh node-01
+
 #When you finish with the labs, you can clean the resources by using the below command
 
 vagrant destroy
