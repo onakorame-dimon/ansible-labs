@@ -35,8 +35,6 @@ Verify Ansible is installed.
 
 For a detailed instruction of Ansible setup, including configuring SSH access for the control node, check out this guide: [ansible setup](setting%20up%20ansible.md)
 
-[Ansible Setup](setting%20up%20ansible.md)
-
 __Set up an inventory file for the target Linux server__
 
 Use the command `touch inventory.ini` to create an Inventory file. 
