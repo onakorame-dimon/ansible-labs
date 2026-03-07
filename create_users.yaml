@@ -1,0 +1,36 @@
+# PLAY TO AUTOMATE USER CREATION
+- name: Automate user creation
+  hosts: hosts
+  become: yes
+  vars:
+    user_details:
+        - { username: 'user1', groups: 'sudo'}
+        - { username: 'user2', groups: 'docker'}
+
+#TASK TO CREATE USERS
+  tasks:
+    - name: Create a new user
+      user:
+        name: "{{ item.username }}"
+        state: present
+        shell: /bin/bash
+        create_home: yes
+      loop: "{{ user_details }}"
+
+#TASK TO ENSURE USERS ARE IN THE NECESSARY GROUPS
+    - name: Add users to group
+      group: 
+       name: "{{ item.groups }}"
+       state: present 
+      loop: "{{ user_details }}"
+
+#TASK TO ADD SSH KEYS TO THE AUTHORIZED KEYS FILE
+    - name: Add SSH key for the users
+      vars:
+        key_path: '/home/vagrant/.ssh/ansible.pub'
+      authorized_key:
+        user: "{{ item.username }}"
+        state: present
+        key: "{{ lookup('file', key_path) }}"
+      loop: "{{ user_details }}"
+
