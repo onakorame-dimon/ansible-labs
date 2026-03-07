@@ -1,6 +1,7 @@
 # Ansible Labs
 
 Ansible is a configuration management and automation tool that uses YAML-based playbooks to define the desired state of 
+managed systems.
 
 This repository contains a collection of Ansible labs and practice exercises used to learn and experiment with Ansible automation concepts.
 
@@ -18,6 +19,6 @@ __2.__ [Setting up Ansible](setting%20up%20ansible.md)
 
 __3.__ [Automating user creation](automate%20user%20creation.md)
 
-__4.__ [Deploy and Configure Nginx Web server with Ansible]()
+__4.__ [Deploy and Configure Nginx Web server with Ansible]() __in progress. . .__
 
 
