@@ -1,4 +1,4 @@
-# Ansible Labs
+# ![ansible_log](./img/ansible_logo.png) Ansible Labs
 
 Ansible is a configuration management and automation tool that uses YAML-based playbooks to define the desired state of 
 managed systems.
