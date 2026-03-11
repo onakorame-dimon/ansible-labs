@@ -7,7 +7,7 @@ This repository contains a collection of Ansible labs and practice exercises use
 
 The repository contains example playbooks, inventory files, and task implementations for common system administration and configuration management tasks.
 
-To follow the labs in this repository, it is recommended you practice them in the order in which the labs are listed. 
+If you are using these labs as a learning tool, it is recommended you practice them in the order in which the labs are listed. 
 
 Also, read the [Vagrant Setup](vagrant-setup.md) document to learn how to setup the lab environment. 
 
