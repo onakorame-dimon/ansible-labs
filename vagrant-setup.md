@@ -5,8 +5,7 @@ This document provides a simple vagrant environment you can run on your local ma
 It can be used with the accompanying Ansible labs in this repository, or for any lab practice of your choice. 
 
 # Lab Diagram Overview
-
-![Lab Diagram](./img/ansible-lab-diagram.png)
+<img src="./img/ansible-lab-diagram.png" alt="ansible lab diagram" width="550" height="413">
 
 # Pre-requisites 
 
