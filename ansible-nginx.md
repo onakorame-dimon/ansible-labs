@@ -199,6 +199,7 @@ Output of Nginx install playbook
 ![install_nginx](./img/nginx_install.jpg)
 
 Output of Nginx configuration playbook
+
 ![configure_nginx](./img/nginx_configure.jpg)
 
 __Verify Nginx is running on the target server__
