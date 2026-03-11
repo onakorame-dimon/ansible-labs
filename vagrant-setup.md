@@ -6,7 +6,7 @@ It can be used with the accompanying Ansible labs in this repository, or for any
 
 # Lab Diagram Overview
 
-![Lab Diagram]()
+![Lab Diagram](./img/ansible-lab-diagram.png)
 
 # Pre-requisites 
 
